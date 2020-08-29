@@ -1,0 +1,16 @@
+title: ASP.Net Core
+description: Introduction to ASP.net core with React.JS and Angular
+template:
+  repo: asp.net-core-template
+  name: asp.net-core
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
